@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+            <section class="page__main main-block">
+               <div class="main-block__container">
+                  <div class="main-block__body">
+                     <div class="main-block__content">
+                        <h1 class="main-block__title"><strong>Рассчитаем стоимость</strong> комплектующих и установки <strong>системы заземления</strong> за 1 день</h1>
+                        <div class="main-block__description">
+                           Получите подробную смету ответив всего на 5 простых вопросов
+                        </div>
+                        <a data-popup="#call" href="" class="main-block__button button">Получить расчет</a>
+                     </div>                     
+                     <div class="main-block__image">
+                        <img src="@img/main-block/image.png" alt="Main Image">
+                     </div>
+                  </div>
+                  <div class="main-block__advantages advantages-main">
+                     <div class="advantages-main__item">
+                        <div class="advantages-main__icon _icon-star"></div>
+                        <div class="advantages-main__text">Собственное производство</div>
+                     </div>
+                     <div class="advantages-main__item">
+                        <div class="advantages-main__icon _icon-cart"></div>
+                        <div class="advantages-main__text">Наличие товара на складе</div>
+                     </div>
+                     <div class="advantages-main__item">
+                        <div class="advantages-main__icon _icon-document"></div>
+                        <div class="advantages-main__text">Выдаем всю документацию</div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="page__types types">
+               <div class="types__container">
+                  <h2 class="types__title _title">Специализируемся на установке заземления по направлениям</h2>
+                  <div class="types__body">
+                     <div class="types__item item-type">
+                        <img class="item-type__image" src="@img/types/01.jpg" alt="Image">
+                        <div class="item-type__content">
+                           <h3 class="item-type__title">Торговые центры</h3>
+                           <div class="item-type__text">
+                              <ul class="item-type__list">
+                                 <li class="item-type__item">Садовый центр Дарвин,</li>
+                                 <li class="item-type__item">OBI,</li>
+                                 <li class="item-type__item">Тц Вешняки,</li>
+                                 <li class="item-type__item">ТЦ Любимый Мичуринский проспект</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="types__item item-type">
+                        <img class="item-type__image" src="@img/types/02.jpg" alt="Image">
+                        <div class="item-type__content">
+                           <h3 class="item-type__title">Частные дома</h3>
+                           <div class="item-type__text">
+                              Установили заземления и молние защиту для более 2000 домов
+                           </div>
+                        </div>
+                     </div>
+                     <div class="types__item item-type">
+                        <img class="item-type__image" src="@img/types/03.jpg" alt="Image">
+                        <div class="item-type__content">
+                           <h3 class="item-type__title">Складские комплексы</h3>
+                           <div class="item-type__text">
+                              Установили заземление и молниезащиту для более 100 складских комплексов.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="types__item item-type">
+                        <img class="item-type__image" src="@img/types/04.jpg" alt="Image">
+                        <div class="item-type__content">
+                           <h3 class="item-type__title">Производственные здания</h3>
+                           <div class="item-type__text">
+                              <ul class="item-type__list">
+                                 <li class="item-type__item">Завод Renault,</li>
+                                 <li class="item-type__item">Завод Майский Чай,</li>
+                                 <li class="item-type__item">Завод Хохланд Рус,</li>
+                                 <li class="item-type__item">Завод KERAMA MARAZZI</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="page__stages stages">
+               <div class="stages__container">
+                  <h2 class="stages__title _title">Выполняем весь цикл работ <br> от расчета до оформления документации</h2>
+                  <div class="stages__body">
+                     <div class="stages__item item-stages">
+                        <div class="item-stages__text">Предварительный расчет материалов и стоимости работ</div>
+                        <span class="item-stages__count">01</span>
+                     </div>
+                     <div class="stages__item item-stages">
+                        <div class="item-stages__text">Бесплатный выезд инжинера на замер</div>
+                        <span class="item-stages__count">02</span>
+                     </div>
+                     <div class="stages__item item-stages">
+                        <div class="item-stages__text">Заключение договора</div>
+                        <span class="item-stages__count">03</span>
+                     </div>
+                     <div class="stages__item item-stages">
+                        <div class="item-stages__text">Предоплата</div>
+                        <span class="item-stages__count">04</span>
+                     </div>
+                     <div class="stages__item item-stages">
+                        <div class="item-stages__text">Выполнение работ</div>
+                        <span class="item-stages__count">05</span>
+                     </div>
+                     <div class="stages__item item-stages">
+                        <div class="item-stages__text">Оплата и выдача исполнительной документации</div>
+                        <span class="item-stages__count">06</span>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            @@include('html/_slider.htm', {
+               "title": "Отзывы о работе с нами",
+               "folder": "feedback",
+               "index": "01"
+            })
+            @@include('html/_slider.htm', {
+               "title": "Фото готовых работ",
+               "folder": "photoes",
+               "index": "02"
+            })
+            <section class="page__consultation consultation">
+               <div class="consultation__container">
+                  <div class="consultation__body">
+                     <div class="consultation__image-box">
+                        <div class="consultation__image">
+                           <div class="consultation__image-ibg"><img src="@img/consultation/image.png" alt="Man"></div>
+                        </div>
+                     </div>
+                     <div class="consultation__content">
+                        <div class="consultation__text">Закажите <strong>бесплатную консультацию</strong> инженера и получите полный расчет стоимости комплектующих и установки</div>
+                        <form action="#" class="consultation__form">
+                           <input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="consultation__input">
+                           <input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш телефон" class="consultation__input">
+                           <button data-popup="#call" type="submit" class="consultation__button button">Заказать</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            @@include('html/_slider.htm', {
+               "title": "Комплектующие для систем заземления и молниезащиты сертефицированны в независимых лабораториях",
+               "folder": "sertificat",
+               "index": "03"
+            })
+            <section class="page__review review">
+               <div class="review__container">
+                  <h2 class="review__title _title">Ответы на частые вопросы</h2>
+                  <div data-spollers class="spollers">
+                     <div class="spollers__item">
+                        <button type="button" data-spoller class="spollers__title _icon-arrow-down">Сколько времени потребуется на расчет?</button>
+                        <div class="spollers__body">Время от отправки заявки до готовой сметы и проекта занимает в среднем 3-5 дней</div>
+                     </div>
+                     <div class="spollers__item">
+                        <button type="button" data-spoller class="spollers__title _icon-arrow-down">Длительность монтажа для частного дома?</button>
+                        <div class="spollers__body">Время от отправки заявки до готовой сметы и проекта занимает в среднем 3-5 дней</div>
+                     </div>
+                     <div class="spollers__item">
+                        <button type="button" data-spoller class="spollers__title _icon-arrow-down">Какой материал используется в заземлении</button>
+                        <div class="spollers__body">Время от отправки заявки до готовой сметы и проекта занимает в среднем 3-5 дней</div>
+                     </div>
+                     <div class="spollers__item">
+                        <button type="button" data-spoller class="spollers__title _icon-arrow-down">Какая документация предоставляется после монтажа?</button>
+                        <div class="spollers__body">Время от отправки заявки до готовой сметы и проекта занимает в среднем 3-5 дней</div>
+                     </div>
+                     <div class="spollers__item">
+                        <button type="button" data-spoller class="spollers__title _icon-arrow-down">Какие способы оплаты принимаете?</button>
+                        <div class="spollers__body">Время от отправки заявки до готовой сметы и проекта занимает в среднем 3-5 дней</div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="page__map map">
+               <iframe class="map__frame" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5441.727226169194!2d39.84859590779954!3d64.55765208535007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1649531245532!5m2!1sru!2sru" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <div class="map__block block-map">
+                  <h2 class="block-map__title">Свяжитесь с нами или приезжайте в гости на чашечку кофе!</h2>
+                  <div class="block-map__contacts">
+                     <a href="tel:+78004480" class="block-map__link block-map__link_contact">+7 800 555 44 80</a>
+                     <a href="mailto:Info@voltstream.ru" class="block-map__link block-map__link_contact">Info@voltstream.ru</a>
+                     <a href="https://goo.gl/maps/u17SePfK8qrxg7bX7" target="_blank" class="block-map__link block-map__link_adress">Россия, Москва, Ул. Газгольдерная 12 стр. 5</a>
+                     <div class="block-map__social">
+                        <a href="" class="_icon-instagram"></a>
+                        <a href="" class="_icon-twitter"></a>
+                     </div>
+                  </div>
+               </div>
+         </section>
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>
